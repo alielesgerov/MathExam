@@ -11,8 +11,8 @@ namespace SuperHardExam
         public static int score = 0;
         public static string[] GetRandomAnswers(string[] answer)
         {
-            var random = new Random();
-            var random_answer = new string[4];
+            Random random = new Random();
+            string random_answer = new string[4];
             var numbers = String.Empty;
             for (int i=0; i < 4;)
             {
