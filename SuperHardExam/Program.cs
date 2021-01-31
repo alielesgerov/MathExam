@@ -12,7 +12,7 @@ namespace SuperHardExam
         public static string[] GetRandomAnswers(string[] answer)
         {
             Random random = new Random();
-            string random_answer = new string[4];
+            string[] random_answer = new string[4];
             var numbers = String.Empty;
             for (int i=0; i < 4;)
             {
